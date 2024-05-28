@@ -4,13 +4,13 @@ var router =  express.Router();
 
 //レスポンスのデータ（ノート全件）
 const responseObjectDataAll = {
-    textObject : {
+    textObject1 : {
         id: 1,
         title:'ノート1のタイトルです',
         subTitle:'ノート1のサブタイトルです', 
         bodyText: 'ノート1の本文です'
     },
-    textObject : {
+    textObject2 : {
         id: 2,
         title:'ノート2のタイトルです',
         subTitle:'ノート2のサブタイトルです', 
